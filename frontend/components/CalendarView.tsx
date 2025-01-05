@@ -14,7 +14,7 @@ export default function CalendarView() {
 
   useEffect(() => {
     axios
-      .get("https://restaurant-booking-pog8.onrender.com/api/bookings")
+      .get("https://restaurant-booking-mw4u.onrender.com/api/bookings")
       .then((response) => {
         setBookings(response.data);
       });

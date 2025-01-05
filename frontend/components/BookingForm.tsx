@@ -43,7 +43,7 @@ const BookingForm: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "https://restaurant-booking-pog8.onrender.com/api/bookings",
+        "https://restaurant-booking-mw4u.onrender.com/api/bookings",
         form
       );
       setForm({
